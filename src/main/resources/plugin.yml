@@ -1,0 +1,49 @@
+name: "ODailyQuests"
+version: '${version}'
+main: com.ordwen.odailyquests.ODailyQuests
+api-version: 1.18
+prefix: "O'DailyQuests"
+authors: [ Ordwen ]
+description: Add more objectives and dynamize your server !
+website: https://modrinth.com/plugin/odailyquests
+softdepend: [ Vault, TokenManager, Citizens, FancyNpcs, PlaceholderAPI, PlayerPoints, MythicMobs, EliteMobs, WildStacker, RoseStacker, Multiverse-Core, MyWorlds, HeadDatabase, Oraxen, ItemsAdder, Nexo, CoinsEngine, Towny, PyroFishingPro, Votifier, NuVotifier, KGenerators, CustomCrops, CustomFishing, EvenMoreFish, eco, ExcellentCrates, MMOItems, MMOCore, PlotSquared, EvenMoreFish ]
+
+libraries:
+  - com.zaxxer:HikariCP:5.0.1
+  - org.xerial:sqlite-jdbc:3.49.1.0
+  - com.jeff-media:custom-block-data:2.2.5
+  - com.h2database:h2:2.1.214
+
+commands:
+  dquests:
+    description: default player command
+    aliases:
+      - dailyquests
+      - dq
+      - quests
+  dqadmin:
+    description: admin command
+    aliases:
+      - dailyquestsadmin
+      - dquestsadmin
+      - dqa
+      - qadmin
+
+permissions:
+  odailyquests.progress:
+    description: "Allows the player to progress in ODailyQuests"
+    default: true
+  odailyquests.admin:
+    description: "Allows the player to use the admin commands"
+    default: op
+  odailyquests.use:
+    description: "Allows the player to use commands and see the player interface"
+    default: op
+  odailyquests.show:
+    description: "Allows the player to see all category interfaces"
+    default: op
+  odailyquests.reroll:
+    description: "Allows the player to reroll quests"
+    default: op
+
+folia-supported: true

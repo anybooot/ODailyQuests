@@ -8,7 +8,7 @@
 >
 > **Original author:** Ordwen  
 > **Original repository:** https://github.com/Ordwen/ODailyQuests  
-> **Maintainer:** [Your GitHub Username]
+> **Maintainer:** [anyboot](https://github.com/anybooot)
 >
 > This fork is not affiliated with, endorsed by, or officially maintained by the original author.
 >

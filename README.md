@@ -6,7 +6,7 @@
 >
 > The original project was discontinued on April 30, 2026. This fork aims to keep the plugin alive by providing compatibility updates, improvements, and bug fixes for newer Minecraft and Paper versions.
 >
-> **Original author:** Ordwen  
+> **Original author:** [Ordwen](https://github.com/Ordwen)
 > **Original repository:** https://github.com/Ordwen/ODailyQuests  
 > **Maintainer:** [anyboot](https://github.com/anybooot)
 >
@@ -17,31 +17,19 @@
 > All modifications made in this fork are identified in the project history and changelog.
 
 ---
+## 📥 Installation (Community Fork)
 
-<img width="805" height="187" alt="image" src="https://github.com/user-attachments/assets/ecffe00c-7d0f-4b0b-a319-b428aae32f1e" />
+1. Download the latest version of **ODailyQuests** from the [GitHub Releases](https://github.com/anybooot/ODailyQuests/releases) page.
+2. Stop your Minecraft server.
+3. Place the downloaded `.jar` file into your server's `plugins` folder.
+4. Start your server.
+5. The plugin will automatically generate its configuration files inside `plugins/ODailyQuests`.
+6. Configure the plugin to your liking and restart your server if necessary.
 
-### Dynamize your server & increase player retention !
+**⚠️ Updating from an older version?**
 
-O'DailyQuests is a powerful and easy-to-use **daily quests plugin** for Minecraft.
-Every day, players receive new **random quests** to complete, each rewarding them with customizable prizes.
-Perfect for increasing player engagement and server retention!
+- Always make a backup of your existing `plugins/ODailyQuests` folder and database before updating.
+- Replace the old `.jar` with the newly downloaded version.
+- Start your server and check the console for errors.
 
-## 📖 Documentation
-[Read the full Wiki](https://ordwenplugins.gitbook.io/odailyquests/) for setup, configuration, and examples.
-
-## 💬 Community
-Need help or want to share feedback? [Join the original Discord community](https://discord.com/invite/NPAUE7kTgJ).
-
-## 🔗 Downloads
-- 📥 **Spigot resource page**: [O'DailyQuests on SpigotMC](https://www.spigotmc.org/resources/odailyquests-daily-quests-plugin-1-16-1-19.100990/)
-- 📥 **Modrinth resource page**: [O'DailyQuests on Modrinth](https://modrinth.com/plugin/odailyquests)
-- 🧩 **Addons**:
-  - [PyroFishingPro Support](https://github.com/Ordwen/ODQ-PyroFishingPro/releases)
-
-## ☕ Support the project
-If you enjoy O'DailyQuests and want to support future development, you can:
-
-- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I41CRIJI)
-- [![PayPal](https://img.shields.io/badge/PayPal-Donate-blue?logo=paypal&style=flat-square)](https://www.paypal.com/paypalme/ordwen)
-
-⭐ Don't forget to **leave a 5-star review on [SpigotMC](https://www.spigotmc.org/resources/odailyquests-daily-quests-plugin-1-16-1-19/reviews/)** — it really helps the project grow!
+**Requirements:** Make sure your server runs a Minecraft/Paper version and Java version supported by the release you download.
